@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: #f0f0f0;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.postcard {
+  background: linear-gradient(145deg, #222, #1a1a1a);
+  border: 2px dashed #444;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  padding: 2em;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.art-section {
+  text-align: center;
+}
+
+.enso {
+  font-size: 6em;
+  color: #aaa;
+}
+
+.message-section h1 {
+  margin: 0;
+  font-size: 1.8em;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.message-section p {
+  font-size: 1.1em;
+  text-align: center;
+  color: #ccc;
+}
+
+.signature {
+  margin-top: 1em;
+  font-style: italic;
+  color: #888;
+}
